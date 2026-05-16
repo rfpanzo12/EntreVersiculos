@@ -220,6 +220,18 @@ def main():
     else:
         player_panel()
 
+def footer():
+    st.markdown(
+        """
+        <hr>
+        <div style='text-align: center; color: gray; font-size: 14px; padding: 10px;'>
+            © 2026 EntreVersículos — Desenvolvido por Rufino Panzo
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
 
 if __name__ == "__main__":
     main()
+    footer()
